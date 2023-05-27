@@ -1,0 +1,89 @@
+.planet-selection-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-image: url('images/stars_milky_way_starry_sky_119836_1920x1080.jpg');
+}
+
+.planet {
+    position: absolute;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.planet:hover {
+    transform: scale(1.2);
+}
+
+.planet-sun {
+    background-image: url('images/sun.png');
+    height: 350px;
+    width: 375px;
+    top: 300px;
+    left: -200px;
+}
+
+.planet-mercury {
+    background-image: url('images/mercruy.png');
+    height: 48px;
+    width: 50px;
+    top: 450px;
+    left: 250px;
+}
+
+.planet-venus {
+    background-image: url('images/venus.png');
+    height: 85px;
+    width: 100px;
+    top: 435px;
+    left: 350px;
+}
+
+.planet-earth {
+    background-image: url('images/earth.png');
+    height: 87.5px;
+    width: 87.5px;
+    top: 435px;
+    left: 500px;
+}
+
+.planet-mars {
+    background-image: url('images/mars.png');
+    height: 65px;
+    width: 65px;
+    top: 450px;
+    left: 650px;
+}
+
+.planet-jupiter {
+    background-image: url('images/jupiter.png');
+    height: 183px;
+    width: 184px;
+    top: 400px;
+    left: 800px;
+}
+
+.planet-saturn {
+    background-image: url('images/saturn.png');
+    height: 190px;
+    width: 420px;
+    top: 400px;
+    left: 1050px;
+}
+
+.planet-uranus {
+    background-image: url('images/uranus.png');
+    height: 128px;
+    width: 128px;
+    top: 450px;
+    left: 1500px;
+}
+
+.planet-neptune {
+    background-image: url('images/neptune.png');
+    height: 146px;
+    width: 147px;
+    top: 450px;
+    left: 1700px;
+}
+
